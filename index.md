@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,7 +13,7 @@
         
         /* Navigation */
         nav { position: fixed; top: 0; left: 0; right: 0; z-index: 50; background: rgba(255,255,255,0.9); backdrop-filter: blur(10px); border-bottom: 1px solid #e2e8f0; }
-        .nav-container { max-width: 1850px; margin: 0 auto; padding: 0 4px; display: flex; align-items: center; justify-content: space-between; height: 64px; }
+        .nav-container { max-width: 1400px; margin: 0 auto; padding: 0 48px; display: flex; align-items: center; justify-content: space-between; height: 64px; }
         .nav-logo { font-size: 1.25rem; font-weight: 700; color: #2563eb; text-decoration: none; }
         .nav-links { display: none; gap: 32px; }
         .nav-links a { font-size: 0.875rem; font-weight: 500; color: #64748b; text-decoration: none; transition: color 0.2s; }
@@ -27,7 +28,7 @@
         
         /* Sections */
         section { padding: 80px 24px; }
-        .container { max-width: 1200px; margin: 0 auto; }
+        .container { max-width: 1400px; margin: 0 auto; padding: 0 48px; }
         .section-title { font-size: 2rem; font-weight: 700; margin-bottom: 12px; }
         .section-bar { width: 80px; height: 4px; background: #2563eb; margin-bottom: 48px; }
         
@@ -182,8 +183,8 @@
                 <div>
                     <p class="hero-label">Hello, I'm</p>
                     <h1 class="hero-name">Rushikesh Palnitkar</h1>
-                    <h2 class="hero-title">Data Engineer | Python | SQL | AWS | PySpark| ETL/ELT</h2>
-                    <p class="hero-desc">Data Engineer experienced in building scalable end-to-end cloud ETL pipelines, providing low-latency solutions for driving business decisions</p>
+                    <h2 class="hero-title">Data Engineer | AWS, Snowflake, Event-Driven ETL</h2>
+                    <p class="hero-desc">I build cloud-native data platforms and ETL pipelines on AWS that turn raw, high-volume data into reliable, analytics-ready datasets — cutting processing time from hours to minutes.</p>
                     <div class="hero-buttons">
                         <a href="#contact" class="btn btn-primary">Get in Touch</a>
                         <a href="#projects" class="btn btn-outline">View My Work</a>
@@ -215,8 +216,8 @@
             <div class="about-grid">
                 <div class="about-text">
                     <h3 style="font-size: 1.5rem; font-weight: 600; margin-bottom: 24px;">My Journey</h3>
-                    <p>I'm a Data Engineer with experience building enterprise data pipelines which deliver hihg-quality data for analytics and reporting. Currently pursuing my MS in Computer Science at The University of Texas at Arlington (GPA 3.78)</p>
-                    <p>My expertise lies in designing and building cloud-native ETL pipelines on AWS, architecting data lakes and warehouses using Delta Lake medallion patterns and Snowflake for advanced, business-driven analytics.</p>
+                    <p>I'm a Data Engineer with experience building enterprise data pipelines that ingest, transform, and deliver data for analytics and reporting. Currently pursuing my MS in Computer Science at The University of Texas at Arlington with a GPA of 3.78.</p>
+                    <p>My expertise lies in designing and building batch and event-driven ETL pipelines on AWS, architecting data lakes and warehouses using Delta Lake medallion patterns and Snowflake for low-latency analytics.</p>
                     <p>I'm passionate about automating infrastructure and deployments with Terraform and CI/CD (GitHub Actions) to keep systems reliable and easy to evolve, while enabling stakeholders with clean, queryable datasets and dashboards.</p>
                     <div class="about-highlight">
                         <strong>Currently:</strong> MS in Computer Science at UT Arlington (Aug 2024 - May 2026)
@@ -394,7 +395,7 @@
                     </ul>
                 </div>
                 <div class="project-impact">
-                    <strong>Impact:</strong> Achieved 20-minute data refresh and reduced data scientists' preprocessing time by 50%.
+                    <strong>Impact:</strong> Achieved 20-minute refresh SLA and reduced data scientists' preprocessing time by 50%.
                 </div>
                 <div class="tags" style="margin-top: 24px;">
                     <span class="tag-outline">AWS CDK</span>
@@ -582,6 +583,10 @@
                         <div class="contact-icon">
                             <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
                         </div>
+                        <div>
+                            <p class="contact-label">Phone</p>
+                            <p class="contact-value"><a href="tel:+16823405836">+1 (682) 340-5836</a></p>
+                        </div>
                     </div>
                     <div class="contact-item">
                         <div class="contact-icon">
@@ -620,14 +625,9 @@
         </div>
     </section>
 
-<!-- Footer -->
-<footer>
-    <p>
-        Design inspired by 
-        <a href="https://aravinthvr.github.io/portfolio/?utm_source=github&utm_medium=developer-portfolios&utm_campaign=personal_branding&utm_content=v1_27_07_25" target="_blank">
-            Aravinthaprasath V.
-        </a>
-    </p>
-</footer>
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Rushikesh Palnitkar. Built with passion.</p>
+    </footer>
 </body>
 </html>
